@@ -1,0 +1,107 @@
+.submit_btn{
+	margin-top : -5px;
+	margin-left : 12px;
+	width:150px;
+    font-size:13px;
+    font-weight:bold;
+    text-decoration:none;
+    text-align:center;
+    padding:8px 0 10px;
+    border-radius:20px;
+    background: #ffff11;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffff11), to(#0099ff) );
+    background: -moz-linear-gradient(-90deg, #ffff11, #ffff44);
+    filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffff11', endColorstr='#0099ff');
+}
+.submit_btn_box{
+	margin: auto;
+	margin-top:10px;
+	clear: both;
+	text-align: center;
+ }
+ .submit_btn_box2{
+	margin: auto;
+	margin-top:10px;
+	clear: both;
+	padding-left: 600px;
+ }
+
+ .submit_btn:disabled{
+	background-image: none;
+    background-color: #4b7ea1;
+    border-color: #4b7ea1;
+    background: -webkit-gradient(linear, left top, left bottom, from(#81a8cb), to(#4477a1) );
+    background: -moz-linear-gradient(-90deg, #81a8cb, #4477a1);
+    filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#81a8cb', endColorstr='#4477a1');
+	opacity: 0.5;
+}
+.submit_btn_leftbox{
+	float:left;
+	padding: 0 50% 0 10%;
+}
+h4{
+	margin:2em 0 1em 80%;
+	color:#4b7ea1;
+}
+
+#header {
+	top: 0;
+	left:0;
+	position : fixed;
+	width : 100%;
+	height : 60px;
+	padding : 10px;
+	background-color : #000066;
+	min-width : 630px;
+}
+#header-menu {
+	float : left;
+	width : 80%;
+	margini-left : -30px;
+}
+#header-menu ul {
+	float : left;
+	margin-top : 15px;
+	margin-left : 20px;
+	width : 100%;
+}
+#header-menu ul li {
+	float : left;
+	list-style : none;
+	padding-left : 1%;
+	color : white;
+	font-size : 12px;
+}
+#header-title {
+	float : left;
+	height : 30px;
+	margin-top : 0px;
+	margin-left : 25px;
+	width : 10%;
+	font-family : 'Comic Sans MS', cursive;
+	color : #ffffff;
+	font-size : 40px;
+}
+.txt-keywords{
+	border-radius:20px;
+}
+
+h1{
+	margin-top: 100px;
+    border-bottom: solid 3px #000066;
+    border-top: solid 3px #000066;
+    width: 98%;
+    text-align: center;
+	color: #000066;
+	padding: 15px;
+}
+
+.checkbox{
+	width: 70%;
+	margin:0 auto;
+}
+
+a {
+  color: #000066;
+  text-decoration: none;
+}
